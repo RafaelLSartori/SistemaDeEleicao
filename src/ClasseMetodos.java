@@ -5,7 +5,7 @@ public class ClasseMetodos {
         for (int i = 0; i < 10; i++){
             cadastro[i].numeroEleitor = Integer.parseInt(JOptionPane.showInputDialog("Digite o número do eleitor: "));
             cadastro[i].nomeEleitor = JOptionPane.showInputDialog("Digite o nome do eleitor: ");
-            cadastro[i].secao = Integer.parseInt(JOptionPane.showInputDialog("Digite o número da seção: "));
+            cadastro[i].secao = Integer.parseInt(JOptionPane.showInputDialog("Digite o número da seção (1, 3, 4, 5, 9, 10): "));
         }
         return cadastro;
     }
